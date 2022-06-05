@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/ryu.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Ryu</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ryu" data-name="Ryu">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ryu2.jpg" alt="Personagem Ryu">
+                </li>
+
+                <li class="personagem" id="chun-li" data-name="Chun-li">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/chun-li2.jfif" alt="Personagem Chun-li">
+                </li>
+
+                <li class="personagem" id="zangief" data-name="Zangief">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/zangief2.jpg" alt="Personagem Zangief">
+                </li>
+
+                <li class="personagem" id="Dhalsin" data-name="Dhalsin">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/dhalsin2.jpg" alt="Personagem Dhalsin">
+                </li>
+
+                <li class="personagem" id="Blanka" data-name="Blanka">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/blanka2.jfif" alt="Personagem Blanka">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="Ken" data-name="Ken">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/ken2.jfif" alt="Personagem Ultron">
+                </li>
+
+                <li class="personagem" id="m-bison" data-name="M-bison">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/mbison2.jpg_large" alt="Personagem M-bison">
+                </li>
+
+                <li class="personagem" id="e-honda" data-name="E-honda">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ehonda2.jfif" alt="Personagem E-honda">
+                </li>
+
+                <li class="personagem" id="akuma" data-name="Akuma">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/akuma2.jpg" alt="Personagem Akuma">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/ken.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Ken</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
