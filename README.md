@@ -1,5 +1,5 @@
 # Projeto pagina web seleção de personagem do Street Fighter 🐱‍👤🐱‍👤
-Estrutura inicial de uma tela de seleção de personagens curso DevQuest.
+Estrutura inicial de uma tela de seleção de personagens.
 
 <br>
 
