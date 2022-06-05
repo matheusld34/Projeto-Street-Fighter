@@ -3,7 +3,7 @@ Estrutura inicial de uma tela de seleção de personagens.
 
 <br>
 
-<img src="./animação.gif" alt="gif da tela do projeto">
+<img src="./animacao.gif" alt="gif da tela do projeto">
 
 <br>
 
